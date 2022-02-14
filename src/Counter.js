@@ -33,10 +33,11 @@ const Counter = () => {
                 aria-label="Increment by 5 value"
                 onClick={() => dispatch(increment5())}>
                 Increment by 5
-            </button>
-            <br></br>
-            <br></br>
+                <br></br>
+                 </button>
+                 <br></br>
             <form onSubmit={(e) => byAmount(e)}>
+                <br></br>
                 <input type="number" onChange={(e) => setInput(e.target.value)} />
                 <button type="submit">Submit</button>
             </form>
