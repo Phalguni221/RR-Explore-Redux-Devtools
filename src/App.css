@@ -1,5 +1,9 @@
-.App {
-  text-align: center;
+div {
+  text-align:center;
+}
+
+button {
+  background-color: skyblue;
 }
 
 .App-logo {
